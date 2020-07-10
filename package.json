@@ -5,10 +5,9 @@
   "main": "script.js",
   "scripts": {
     "start": "node server.js",
-    "start": "serve -s build",
     "start:dev": "nodemon server.js"
   },
-  "author": "Shezray",
+  "author": "shezrayhusain",
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -17,8 +16,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.21.1",
-    "pg": "^8.2.1",
-    "serve": "^11.3.2"
+    "pg": "^8.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
